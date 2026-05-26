@@ -1,0 +1,23 @@
+# Nexora — ignored files
+
+# Bot credentials (never commit the live bot)
+bot.py
+
+# Runtime data files
+nexora_state.json
+nexora_trades.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment / secrets
+.env
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Local git config (contains personal email)
+.gitconfig
